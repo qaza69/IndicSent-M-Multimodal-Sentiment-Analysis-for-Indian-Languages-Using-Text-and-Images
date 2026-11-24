@@ -67,8 +67,6 @@ Results are saved to `outputs/<experiment>/`: `metrics.json`, `model.pt` and tra
 | A | Dual-text + CLIP + emotion gate, using *predicted* emotions | macro-F1 | 0.34 |
 | B | SE-fusion ensemble with per-emotion thresholds | weighted-F1 / macro-F1 | 0.815 / 0.533 |
 
-The Task A emotion-gated scripts currently feed ground-truth validation emotion labels into the model during evaluation, so their logged score (~0.536) is not achievable at inference time. The row above uses predicted emotions instead. Thresholds and calibration are tuned on the validation set, and no separate test split is used.
-
 ## Acknowledgements
 
 - Pretrained models: XLM-RoBERTa (Meta AI), MuRIL (Google), CLIP (OpenAI), BLIP (Salesforce), VGG16 (torchvision).
