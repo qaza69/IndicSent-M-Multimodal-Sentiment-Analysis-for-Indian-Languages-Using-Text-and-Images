@@ -1,0 +1,16 @@
+# Python 3.9 - 3.12 recommended
+torch
+torchvision
+transformers>=4.40
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+pillow
+tqdm
+peft
+pyarrow
+huggingface_hub
+# optional: run app.py inside Streamlit
+# streamlit

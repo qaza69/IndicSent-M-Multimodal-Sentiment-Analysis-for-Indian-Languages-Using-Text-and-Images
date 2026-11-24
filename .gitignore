@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+cache/
+outputs/
+data/trainImages/*
+data/valImages/*
+!data/trainImages/.gitkeep
+!data/valImages/.gitkeep
+
+# Datasets belong to their creators - download separately (see README)
+data/*.csv
+samples/
+__MACOSX/
+*.npz
+*.pt
+*.safetensors
